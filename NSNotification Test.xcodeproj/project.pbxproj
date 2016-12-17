@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		C4F780921E04BBC9000E6C08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F780911E04BBC9000E6C08 /* AppDelegate.swift */; };
-		C4F780941E04BBC9000E6C08 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F780931E04BBC9000E6C08 /* ViewController.swift */; };
+		C4F780941E04BBC9000E6C08 /* FirstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F780931E04BBC9000E6C08 /* FirstVC.swift */; };
 		C4F780971E04BBC9000E6C08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4F780951E04BBC9000E6C08 /* Main.storyboard */; };
 		C4F780991E04BBC9000E6C08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4F780981E04BBC9000E6C08 /* Assets.xcassets */; };
 		C4F7809C1E04BBC9000E6C08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4F7809A1E04BBC9000E6C08 /* LaunchScreen.storyboard */; };
 		C4F780A71E04BBC9000E6C08 /* NSNotification_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F780A61E04BBC9000E6C08 /* NSNotification_TestTests.swift */; };
 		C4F780B21E04BBC9000E6C08 /* NSNotification_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F780B11E04BBC9000E6C08 /* NSNotification_TestUITests.swift */; };
+		C4F780C01E04BBED000E6C08 /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F780BF1E04BBED000E6C08 /* SecondVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,7 @@
 /* Begin PBXFileReference section */
 		C4F7808E1E04BBC9000E6C08 /* NSNotification Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NSNotification Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4F780911E04BBC9000E6C08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C4F780931E04BBC9000E6C08 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C4F780931E04BBC9000E6C08 /* FirstVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstVC.swift; sourceTree = "<group>"; };
 		C4F780961E04BBC9000E6C08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C4F780981E04BBC9000E6C08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4F7809B1E04BBC9000E6C08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +48,7 @@
 		C4F780AD1E04BBC9000E6C08 /* NSNotification TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NSNotification TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4F780B11E04BBC9000E6C08 /* NSNotification_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSNotification_TestUITests.swift; sourceTree = "<group>"; };
 		C4F780B31E04BBC9000E6C08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4F780BF1E04BBED000E6C08 /* SecondVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				C4F780911E04BBC9000E6C08 /* AppDelegate.swift */,
-				C4F780931E04BBC9000E6C08 /* ViewController.swift */,
+				C4F780931E04BBC9000E6C08 /* FirstVC.swift */,
+				C4F780BF1E04BBED000E6C08 /* SecondVC.swift */,
 				C4F780951E04BBC9000E6C08 /* Main.storyboard */,
 				C4F780981E04BBC9000E6C08 /* Assets.xcassets */,
 				C4F7809A1E04BBC9000E6C08 /* LaunchScreen.storyboard */,
@@ -262,7 +265,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4F780941E04BBC9000E6C08 /* ViewController.swift in Sources */,
+				C4F780941E04BBC9000E6C08 /* FirstVC.swift in Sources */,
+				C4F780C01E04BBED000E6C08 /* SecondVC.swift in Sources */,
 				C4F780921E04BBC9000E6C08 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -514,6 +518,7 @@
 				C4F780B81E04BBC9000E6C08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C4F780B91E04BBC9000E6C08 /* Build configuration list for PBXNativeTarget "NSNotification TestTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +527,7 @@
 				C4F780BB1E04BBC9000E6C08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C4F780BC1E04BBC9000E6C08 /* Build configuration list for PBXNativeTarget "NSNotification TestUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +536,7 @@
 				C4F780BE1E04BBC9000E6C08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
